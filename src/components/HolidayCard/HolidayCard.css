@@ -1,0 +1,100 @@
+/* General container styles */
+.holiday-table-container {
+  margin-top: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.holiday-card-container {
+  margin-bottom: 40px;
+}
+
+/* Header styles */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.total-holidays {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  white-space: nowrap;
+}
+
+.sort-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  white-space: nowrap;
+}
+
+.sort-label {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.sort-select {
+  padding: 5px 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Grid layout for holiday cards */
+.holiday-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding-bottom: 40px;
+}
+
+/* Card styles */
+.holiday-card {
+  width: 300px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.holiday-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Card content styles */
+.holiday-local-name {
+  font-size: 18px;
+  font-weight: bold;
+  color: #4a90e2;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.holiday-english-name {
+  font-size: 14px;
+  font-style: italic;
+  color: #666;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.holiday-date {
+  font-size: 12px;
+  color: #555;
+  text-align: center;
+}
+
+/* No holidays message */
+.no-holidays {
+  text-align: center;
+  font-size: 16px;
+  color: #000;
+  margin-top: 20px;
+}
