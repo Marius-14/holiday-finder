@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/holiday-finder/static/css/main.1f3bd7a7.css",
+    "main.js": "/holiday-finder/static/js/main.7fd362fe.js",
+    "static/js/453.58c4c5c8.chunk.js": "/holiday-finder/static/js/453.58c4c5c8.chunk.js",
+    "index.html": "/holiday-finder/index.html",
+    "main.1f3bd7a7.css.map": "/holiday-finder/static/css/main.1f3bd7a7.css.map",
+    "main.7fd362fe.js.map": "/holiday-finder/static/js/main.7fd362fe.js.map",
+    "453.58c4c5c8.chunk.js.map": "/holiday-finder/static/js/453.58c4c5c8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1f3bd7a7.css",
+    "static/js/main.7fd362fe.js"
+  ]
+}
